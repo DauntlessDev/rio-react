@@ -1,14 +1,23 @@
 import React from 'react';
-import AccordionContainer from './containers/AccordionContainer';
-import FooterContainer from './containers/FooterContainer';
-import JumbotronContainer from './containers/JumbotronContainer';
+import * as ROUTES from './constants/routes';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Home, Browse, Signin, Signup } from './pages';
 
 export default function App() {
   return (
-    <>
-      <AccordionContainer />
-      <JumbotronContainer />
-      <FooterContainer />
-    </>
+    <Router>
+      <Route exact path={ROUTES.HOME}>
+        <Home />
+      </Route>
+      <Route exact path={ROUTES.BROWSE}>
+        <Browse />
+      </Route>
+      <Route exact path={ROUTES.SIGN_IN}>
+        <Signin />
+      </Route>
+      <Route exact path={ROUTES.SIGN_UP}>
+        <Signup />
+      </Route>
+    </Router>
   );
 }

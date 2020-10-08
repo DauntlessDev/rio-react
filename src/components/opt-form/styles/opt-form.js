@@ -17,13 +17,13 @@ export const Input = styled.input`
     width: 100%;
     border: 0;
     padding: 10px;
-    height: 70px;
+    height: 60px;
     box-sizing: border-box;
 `;
 export const Button = styled.button`
     display:flex;
     align-items:center;
-    height: 70px;
+    height: 60px;
     background: #e50914;
     color: white;
     text-transform: uppercase;
