@@ -39,23 +39,34 @@ export const Title = styled.h1`
     margin-bottom: 8px;
 
     @media (max-width: 600px){
-        font-size: 35px;
+        font-size: 25px;
     }
 `;
 
 export const SubTitle = styled.h2`
-    font-size: 26px;
+    font-size: 24px;
     font-weight: normal;
     line-height: normal;
 
     @media (max-width: 600px){
         font-size: 18px;
     }
+
 `;
 
 export const Image = styled.img`
     max-width: 100%;
     height: auto;
+
+    
+    @media (max-width: 900px){
+        max-height: 400px;
+    }
+
+    
+    @media (max-width: 600px){
+        max-height: 270px;
+    }
 `;
 
 export const Container = styled.div`

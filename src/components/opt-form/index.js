@@ -32,9 +32,3 @@ OptForm.Text = function OutFormText({ children, ...restProps }) {
 
 
 
-OptForm.Break = function OutFormBreak({ ...restProps }) {
-    return (
-        <Text {...restProps} />
-    )
-}
-
