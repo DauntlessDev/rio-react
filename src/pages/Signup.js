@@ -11,25 +11,25 @@ export default function Signup() {
     const history = useHistory()
 
 
-    const [Name, setName] = useState('');
+    const [name, setName] = useState('');
     const [emailAddress, setEmailAddress] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [error, setError] = useState('');
 
-    const isInvalid = Name === '' || password === '' || confirmPassword === '' || emailAddress === '';
+    const isInvalid = name === '' || password === '' || confirmPassword === '' || emailAddress === '';
 
 
 
     const handleSignIn = (event) => {
         event.preventDefault();
 
-        if (password == confirmPassword) {
+        if (password === confirmPassword) {
             firebase.auth().createUserWithEmailAndPassword(emailAddress, password)
                 .then((result) =>
                     result.user
                         .updateProfile({
-                            displayName: Name,
+                            displayName: name,
                             photoURL: Math.floor(Math.random() * 5) + 1,
                         }).then(() => history.push(ROUTES.BROWSE))
                 )
@@ -54,7 +54,7 @@ export default function Signup() {
                     {error && <Form.Error>{error}</Form.Error>}
                     <Form.Base onSubmit={handleSignIn} method="POST">
                         <Form.Input placeholder="Name"
-                            value={Name}
+                            value={name}
                             onChange={({ target }) => setName(target.value)}></Form.Input>
                         <Form.Input placeholder="Email address"
                             value={emailAddress}
