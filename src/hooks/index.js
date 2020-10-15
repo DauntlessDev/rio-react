@@ -1,1 +1,3 @@
-export { default as useAuthListener} from './use-auto-listener'
+export { default as useAuthListener } from './useAuthListener'
+
+export { default as useContent } from './useContent'
