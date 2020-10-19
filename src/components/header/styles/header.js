@@ -72,7 +72,7 @@ export const ButtonLink = styled(ReactRouterLink)`
   height: fit-content;
   color: white;
   border: 0;
-  font-size: 12px;
+  font-size: 15px;
   border-radius: 3px;
   padding: 8px 17px;
   cursor: pointer;
