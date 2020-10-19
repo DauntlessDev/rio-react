@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header, Profiles } from '../components'
-import logo from '../logo.svg'
+import logo from '../logo.png'
 import * as ROUTES from '../constants/routes'
 
 export default function SelectProfileContainer({ user, setProfile }) {

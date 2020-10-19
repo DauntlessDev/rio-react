@@ -3,9 +3,10 @@ import SelectProfileContainer from './SelectProfileContainer'
 import { FirebaseContext } from '../context/firebaseContext'
 import { Header, Loading } from '../components'
 import * as ROUTES from '../constants/routes'
-import logo from '../logo.svg'
+import logo from '../logo.png'
 
 export default function BrowseContainer({ slides }) {
+    const [searchTerm, setSearchTerm] = useState('')
     const [profile, setProfile] = useState({})
     const [loading, setLoading] = useState(true)
     const { firebase } = useContext(FirebaseContext)
@@ -33,12 +34,16 @@ export default function BrowseContainer({ slides }) {
                                 <Header.TextLink>Films</Header.TextLink>
                             </Header.Group>
                             <Header.Group>
+                                <Header.Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
                                 <Header.Profile>
                                     <Header.Picture src={user.photoURL} />
                                     <Header.Dropdown>
                                         <Header.Group>
                                             <Header.Picture src={user.photoURL} />
                                             <Header.TextLink>{user.displayName}</Header.TextLink>
+                                        </Header.Group>
+                                        <Header.Group>
+                                            <Header.TextLink onClick={() => firebase.auth().signOut()}>Sign out</Header.TextLink>
                                         </Header.Group>
 
                                     </Header.Dropdown>
@@ -52,6 +57,7 @@ export default function BrowseContainer({ slides }) {
                                 City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a
                                 futile attempt to feel like he's part of the world around him.
                             </Header.Text>
+                            <Header.PlayButton>Play</Header.PlayButton>
                         </Header.Feature>
                     </Header>
                 </>
