@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer/> renders the <Footer /> with a popuolated data 1`] = `
+<div
+  class="footer__Container-sc-1qr3430-0 ckFPBR"
+>
+  <p
+    class="footer__Title-sc-1qr3430-4 hWytSb"
+  >
+    Questions? Contact Us.
+     
+  </p>
+  <p
+    class="footer__Break-sc-1qr3430-6 lnQrXy"
+  >
+     
+  </p>
+  <div
+    class="footer__Row-sc-1qr3430-2 gtGiYx"
+  >
+    <div
+      class="footer__Column-sc-1qr3430-1 cjxaMq"
+    >
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        FAQ
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Investor Relations
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Ways to Watch
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Corporate Information
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Netflix Originals
+         
+      </a>
+       
+    </div>
+    <div
+      class="footer__Column-sc-1qr3430-1 cjxaMq"
+    >
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Help Centre
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Jobs
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Terms of Use
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Contact Us
+         
+      </a>
+       
+    </div>
+    <div
+      class="footer__Column-sc-1qr3430-1 cjxaMq"
+    >
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Account
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Redeem Gift Cards
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Privacy
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Speed Test
+         
+      </a>
+       
+    </div>
+    <div
+      class="footer__Column-sc-1qr3430-1 cjxaMq"
+    >
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Media Centre
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Buy Gift Cards
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Cookie Preferences
+         
+      </a>
+      <a
+        class="footer__Link-sc-1qr3430-3 hieEbN"
+        href="#"
+      >
+        Lagal Notice
+         
+      </a>
+       
+    </div>
+     
+  </div>
+  <p
+    class="footer__Break-sc-1qr3430-6 lnQrXy"
+  >
+     
+  </p>
+  <p
+    class="footer__Text-sc-1qr3430-5 cbOTXu"
+  >
+    Rio Philippines
+     
+  </p>
+</div>
+`;

@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> opens and closes the <Accordion /> component 1`] = `
+<div
+  class="accordion__Container-sc-9zbxzv-0 xLYsw"
+>
+  <div
+    class="accordion__Inner-sc-9zbxzv-2 iyakfd"
+  >
+    <h1
+      class="accordion__Title-sc-9zbxzv-3 dccKDK"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Frame-sc-9zbxzv-1 hvKCqN"
+    >
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          What is Rioflix?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          How much does Rioflix cost?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          Where can I watch?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          How do I cancel?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          What can I watch on Rioflix?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Accordion /> renders the <Accordion /> with populated data 1`] = `
+<div
+  class="accordion__Container-sc-9zbxzv-0 xLYsw"
+>
+  <div
+    class="accordion__Inner-sc-9zbxzv-2 iyakfd"
+  >
+    <h1
+      class="accordion__Title-sc-9zbxzv-3 dccKDK"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Frame-sc-9zbxzv-1 hvKCqN"
+    >
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          What is Rioflix?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          How much does Rioflix cost?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          Where can I watch?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          How do I cancel?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="accordion__Item-sc-9zbxzv-4 jOCFeu"
+      >
+        <div
+          class="accordion__Header-sc-9zbxzv-5 ejacmQ"
+        >
+          What can I watch on Rioflix?
+          <img
+            alt="Open"
+            src="/images/icons/add.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
