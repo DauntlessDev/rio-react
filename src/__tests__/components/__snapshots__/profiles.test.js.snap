@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> renders the <Profiles /> with populated data 1`] = `
+<div
+  class="profiles__Container-pdg2hl-0 dBSMmt"
+>
+  <h1
+    class="profiles__Title-pdg2hl-1 leWZRB"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-pdg2hl-2 gKRkuO"
+  >
+    <li
+      class="profiles__Item-pdg2hl-5 dtVrOg"
+    >
+      <img
+        class="profiles__Picture-pdg2hl-4 gHmPWR"
+        data-testid="profile-picture"
+        src="/images/users//images/brave.png.png"
+      />
+      <p
+        class="profiles__Name-pdg2hl-3 ipJTbu"
+      >
+        Brave
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> renders the <Profiles /> with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-pdg2hl-0 dBSMmt"
+>
+  <h1
+    class="profiles__Title-pdg2hl-1 leWZRB"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-pdg2hl-2 gKRkuO"
+  >
+    <li
+      class="profiles__Item-pdg2hl-5 dtVrOg"
+    >
+      <img
+        class="profiles__Picture-pdg2hl-4 gHmPWR"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-pdg2hl-3 ipJTbu"
+      >
+        Brave
+      </p>
+    </li>
+  </ul>
+</div>
+`;

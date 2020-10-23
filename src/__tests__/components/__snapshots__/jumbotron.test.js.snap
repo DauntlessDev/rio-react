@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
+<div
+  class="jumbotron__Container-lbur8u-6 ffBsDv"
+>
+  <div>
+    <div
+      class="jumbotron__Item-lbur8u-0 hgnPoa"
+    >
+      <div
+        class="jumbotron__Inner-lbur8u-1 fbeYLq"
+        direction="row"
+      >
+        <div
+          class="jumbotron__Pane-lbur8u-2 eOkBEl"
+        >
+          <h1
+            class="jumbotron__Title-lbur8u-3 PvpWy"
+          >
+            Enjoy on your TV.
+          </h1>
+          <h2
+            class="jumbotron__SubTitle-lbur8u-4 cLKmeR"
+          >
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+          </h2>
+        </div>
+        <div
+          class="jumbotron__Pane-lbur8u-2 eOkBEl"
+        >
+          <img
+            alt="Tiger King on Rioflix"
+            class="jumbotron__Image-lbur8u-5 jcpXGj"
+            data-testid="1-jumbo-image"
+            src="/images/misc/home-tv.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      class="jumbotron__Item-lbur8u-0 hgnPoa"
+    >
+      <div
+        class="jumbotron__Inner-lbur8u-1 fbeYLq"
+        direction="row"
+      >
+        <div
+          class="jumbotron__Pane-lbur8u-2 eOkBEl"
+        >
+          <h1
+            class="jumbotron__Title-lbur8u-3 PvpWy"
+          >
+            Download your programmes to watch on the go.
+          </h1>
+          <h2
+            class="jumbotron__SubTitle-lbur8u-4 cLKmeR"
+          >
+            Save your data and watch all your favourites offline.
+          </h2>
+        </div>
+        <div
+          class="jumbotron__Pane-lbur8u-2 eOkBEl"
+        >
+          <img
+            alt="Watch on mobile"
+            class="jumbotron__Image-lbur8u-5 jcpXGj"
+            data-testid="2-jumbo-image"
+            src="/images/misc/home-mobile.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      class="jumbotron__Item-lbur8u-0 hgnPoa"
+    >
+      <div
+        class="jumbotron__Inner-lbur8u-1 fbeYLq"
+        direction="row"
+      >
+        <div
+          class="jumbotron__Pane-lbur8u-2 eOkBEl"
+        >
+          <h1
+            class="jumbotron__Title-lbur8u-3 PvpWy"
+          >
+            Watch everywhere.
+          </h1>
+          <h2
+            class="jumbotron__SubTitle-lbur8u-4 cLKmeR"
+          >
+            Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.
+          </h2>
+        </div>
+        <div
+          class="jumbotron__Pane-lbur8u-2 eOkBEl"
+        >
+          <img
+            alt="Money Heist on Rioflix"
+            class="jumbotron__Image-lbur8u-5 jcpXGj"
+            data-testid="3-jumbo-image"
+            src="/images/misc/home-imac.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
