@@ -12,7 +12,7 @@ exports[`<Header /> renders the basic <Header /> with a background 1`] = `
       class="header__Container-sc-16skmj5-4 gyjpsR"
     >
       <p
-        class="header__Link-sc-16skmj5-9 cftInV"
+        class="header__Link-sc-16skmj5-10 UEgDh"
       >
         Hello I am a link!
       </p>
@@ -31,7 +31,7 @@ exports[`<Header /> renders the basic <Header /> without a background 1`] = `
   class="header__Container-sc-16skmj5-4 gyjpsR"
 >
   <p
-    class="header__Link-sc-16skmj5-9 kESBWN"
+    class="header__Link-sc-16skmj5-10 dRgOtt"
   >
     Hello I am a link!
   </p>
@@ -54,12 +54,12 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
         class="header__Group-sc-16skmj5-1 gbkMa-d"
       >
         <p
-          class="header__Link-sc-16skmj5-9 kESBWN"
+          class="header__Link-sc-16skmj5-10 dRgOtt"
         >
           Series
         </p>
         <p
-          class="header__Link-sc-16skmj5-9 kESBWN"
+          class="header__Link-sc-16skmj5-10 dRgOtt"
         >
           Films
         </p>
@@ -68,10 +68,10 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
         class="header__Group-sc-16skmj5-1 gbkMa-d"
       >
         <div
-          class="header__Search-sc-16skmj5-15 dZTaCW"
+          class="header__Search-sc-16skmj5-17 iLDIyI"
         >
           <button
-            class="header__SearchIcon-sc-16skmj5-16 fbUsov"
+            class="header__SearchIcon-sc-16skmj5-18 ConOt"
             data-testid="search-click"
           >
             <img
@@ -80,31 +80,31 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
             />
           </button>
           <input
-            class="header__SearchInput-sc-16skmj5-14 jvSCuc"
+            class="header__SearchInput-sc-16skmj5-16 sGuDS"
             data-testid="search-input"
             placeholder="Search films and series"
             value="Joker"
           />
         </div>
         <div
-          class="header__Profile-sc-16skmj5-13 iKKhYF"
+          class="header__Profile-sc-16skmj5-15 TolnJ"
         >
           <button
-            class="header__Picture-sc-16skmj5-11 eWtBul"
+            class="header__Picture-sc-16skmj5-13 dvGHv"
             src="/images/users//images/brave.png.png"
           />
           <div
-            class="header__Dropdown-sc-16skmj5-12 hCXoOj"
+            class="header__Dropdown-sc-16skmj5-14 jZkHRb"
           >
             <div
               class="header__Group-sc-16skmj5-1 gbkMa-d"
             >
               <button
-                class="header__Picture-sc-16skmj5-11 eWtBul"
+                class="header__Picture-sc-16skmj5-13 dvGHv"
                 src="/images/users//images/brave.png.png"
               />
               <p
-                class="header__Link-sc-16skmj5-9 kESBWN"
+                class="header__Link-sc-16skmj5-10 dRgOtt"
               >
                 Brave Leuterio
               </p>
@@ -113,7 +113,7 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
               class="header__Group-sc-16skmj5-1 gbkMa-d"
             >
               <p
-                class="header__Link-sc-16skmj5-9 kESBWN"
+                class="header__Link-sc-16skmj5-10 dRgOtt"
               >
                 Sign out
               </p>
@@ -123,20 +123,20 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
       </div>
     </div>
     <div
-      class="header__Container-sc-16skmj5-4 header__Feature-sc-16skmj5-7 gyjpsR kcpguk"
+      class="header__Container-sc-16skmj5-4 header__Feature-sc-16skmj5-7 gyjpsR cGfnIb"
     >
       <h2
-        class="header__FeatureCallOut-sc-16skmj5-10 dMutSN"
+        class="header__FeatureCallOut-sc-16skmj5-11 injLID"
       >
         Watch Joker Now
       </h2>
       <p
-        class="header__Text-sc-16skmj5-8 gJszcW"
+        class="header__Text-sc-16skmj5-8 iCXpDq"
       >
         Forever alone in a crowd...
       </p>
       <button
-        class="header__PlayButton-sc-16skmj5-17 fwJTMh"
+        class="header__PlayButton-sc-16skmj5-19 eofotb"
       >
         Play
       </button>
