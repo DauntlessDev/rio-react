@@ -9,12 +9,12 @@ import {
 
 export default function Header({ bg = true, children, ...restProps }) {
     return bg ? (
-        <Background {...restProps}>
+        <Background {...restProps} data-testid="header-bg">
             <Darken>
                 {children}
             </Darken>
         </Background>
-    ) : { children }
+    ) : <>{children}</>
 }
 
 

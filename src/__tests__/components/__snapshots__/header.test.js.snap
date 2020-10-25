@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders the basic <Header /> with a background 1`] = `
+<div
+  class="header__Background-sc-16skmj5-0 usTsY"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Darken-sc-16skmj5-2 bjGIMD"
+  >
+    <div
+      class="header__Container-sc-16skmj5-4 gyjpsR"
+    >
+      <p
+        class="header__Link-sc-16skmj5-9 cftInV"
+      >
+        Hello I am a link!
+      </p>
+    </div>
+    <div
+      class="header__Inner-sc-16skmj5-3 krSShB"
+    >
+      Inner
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders the basic <Header /> without a background 1`] = `
+<div
+  class="header__Container-sc-16skmj5-4 gyjpsR"
+>
+  <p
+    class="header__Link-sc-16skmj5-9 kESBWN"
+  >
+    Hello I am a link!
+  </p>
+</div>
+`;
+
+exports[`<Header /> renders the full <Header> with a background 1`] = `
+<div
+  class="header__Background-sc-16skmj5-0 jcyKvV"
+  data-testid="header-bg"
+  src="joker1.jpg"
+>
+  <div
+    class="header__Darken-sc-16skmj5-2 bjGIMD"
+  >
+    <div
+      class="header__Container-sc-16skmj5-4 gyjpsR"
+    >
+      <div
+        class="header__Group-sc-16skmj5-1 gbkMa-d"
+      >
+        <p
+          class="header__Link-sc-16skmj5-9 kESBWN"
+        >
+          Series
+        </p>
+        <p
+          class="header__Link-sc-16skmj5-9 kESBWN"
+        >
+          Films
+        </p>
+      </div>
+      <div
+        class="header__Group-sc-16skmj5-1 gbkMa-d"
+      >
+        <div
+          class="header__Search-sc-16skmj5-15 dZTaCW"
+        >
+          <button
+            class="header__SearchIcon-sc-16skmj5-16 fbUsov"
+            data-testid="search-click"
+          >
+            <img
+              alt="Search"
+              src="/images/icons/search.png"
+            />
+          </button>
+          <input
+            class="header__SearchInput-sc-16skmj5-14 jvSCuc"
+            data-testid="search-input"
+            placeholder="Search films and series"
+            value="Joker"
+          />
+        </div>
+        <div
+          class="header__Profile-sc-16skmj5-13 iKKhYF"
+        >
+          <button
+            class="header__Picture-sc-16skmj5-11 eWtBul"
+            src="/images/users//images/brave.png.png"
+          />
+          <div
+            class="header__Dropdown-sc-16skmj5-12 hCXoOj"
+          >
+            <div
+              class="header__Group-sc-16skmj5-1 gbkMa-d"
+            >
+              <button
+                class="header__Picture-sc-16skmj5-11 eWtBul"
+                src="/images/users//images/brave.png.png"
+              />
+              <p
+                class="header__Link-sc-16skmj5-9 kESBWN"
+              >
+                Brave Leuterio
+              </p>
+            </div>
+            <div
+              class="header__Group-sc-16skmj5-1 gbkMa-d"
+            >
+              <p
+                class="header__Link-sc-16skmj5-9 kESBWN"
+              >
+                Sign out
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="header__Container-sc-16skmj5-4 header__Feature-sc-16skmj5-7 gyjpsR kcpguk"
+    >
+      <h2
+        class="header__FeatureCallOut-sc-16skmj5-10 dMutSN"
+      >
+        Watch Joker Now
+      </h2>
+      <p
+        class="header__Text-sc-16skmj5-8 gJszcW"
+      >
+        Forever alone in a crowd...
+      </p>
+      <button
+        class="header__PlayButton-sc-16skmj5-17 fwJTMh"
+      >
+        Play
+      </button>
+    </div>
+  </div>
+</div>
+`;
