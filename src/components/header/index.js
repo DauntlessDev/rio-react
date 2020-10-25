@@ -38,7 +38,7 @@ Header.Feature = function HeaderFeature({ children, ...restProps }) {
 Header.FeatureCallOut = function HeaderFeatureCallOut({ children, ...restProps }) {
     return <FeatureCallOut {...restProps}>{children}</FeatureCallOut>
 }
-Header.FeatureCallOutBottom = function HeaderFeatureCallOut({ children, ...restProps }) {
+Header.FeatureCallOutBottom = function HeaderFeatureCallOutBottom({ children, ...restProps }) {
     return <FeatureCallOutBottom {...restProps}>{children}</FeatureCallOutBottom>
 }
 
@@ -46,7 +46,7 @@ Header.Text = function HeaderText({ children, ...restProps }) {
     return <Text {...restProps}>{children}</Text>
 }
 
-Header.SubText = function HeaderText({ children, ...restProps }) {
+Header.SubText = function HeaderSubText({ children, ...restProps }) {
     return <SubText {...restProps}>{children}</SubText>
 }
 

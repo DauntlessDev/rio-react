@@ -125,20 +125,30 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
     <div
       class="header__Container-sc-16skmj5-4 header__Feature-sc-16skmj5-7 gyjpsR cGfnIb"
     >
+      <p
+        class="header__SubText-sc-16skmj5-9 fSakBx"
+      >
+        Season 3 now available
+      </p>
       <h2
         class="header__FeatureCallOut-sc-16skmj5-11 injLID"
       >
-        Watch Joker Now
+        STRANGER
+      </h2>
+      <h2
+        class="header__FeatureCallOutBottom-sc-16skmj5-12 kiJzME"
+      >
+        THINGS
       </h2>
       <p
         class="header__Text-sc-16skmj5-8 iCXpDq"
       >
-        Forever alone in a crowd...
+        Set in the 1980s.
       </p>
       <button
         class="header__PlayButton-sc-16skmj5-19 eofotb"
       >
-        Play
+        Start Watching
       </button>
     </div>
   </div>

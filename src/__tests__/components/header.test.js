@@ -68,11 +68,13 @@ describe('<Header />', () => {
                         </Header.Profile>
                     </Header.Group>
                 </Header.Frame>
-
                 <Header.Feature>
-                    <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
-                    <Header.Text>Forever alone in a crowd...</Header.Text>
-                    <Header.PlayButton>Play</Header.PlayButton>
+                    <Header.SubText>Season 3 now available</Header.SubText>
+                    <Header.FeatureCallOut>STRANGER</Header.FeatureCallOut>
+                    <Header.FeatureCallOutBottom>THINGS</Header.FeatureCallOutBottom>
+                    <Header.Text>Set in the 1980s.
+                            </Header.Text>
+                    <Header.PlayButton>Start Watching</Header.PlayButton>
                 </Header.Feature>
             </Header>
         );
@@ -85,10 +87,12 @@ describe('<Header />', () => {
         expect(getByText('Series')).toBeTruthy();
         expect(getByText('Films')).toBeTruthy();
         expect(getByText('Brave Leuterio')).toBeTruthy();
-        expect(getByText('Watch Joker Now')).toBeTruthy();
+        expect(getByText('Season 3 now available')).toBeTruthy();
+        expect(getByText('STRANGER')).toBeTruthy();
+        expect(getByText('THINGS')).toBeTruthy();
         expect(getByText('Sign out')).toBeTruthy();
-        expect(getByText('Forever alone in a crowd...')).toBeTruthy();
-        expect(getByText('Play')).toBeTruthy();
+        expect(getByText('Set in the 1980s.')).toBeTruthy();
+        expect(getByText('Start Watching')).toBeTruthy();
         expect(container.firstChild).toMatchSnapshot();
     });
 });
