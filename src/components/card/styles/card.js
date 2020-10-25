@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const Title = styled.p`
-  font-size: 24px;
+  font-size: 20px;
   color: #e5e5e5;
   font-weight: bold;
   margin-left: 56px;
@@ -34,7 +34,8 @@ export const Group = styled.div`
 
   > ${Container}:first-of-type {
     @media (min-width: 1100px) {
-      margin-top: -150px;
+      /* margin-top: -150px; */
+      margin-top: 25px;
     }
   }
 `;
@@ -75,7 +76,7 @@ export const Meta = styled.div`
 export const Image = styled.img`
   border: 0;
   width: 100%;
-  max-width: 305px;
+  max-width: 295px;
   cursor: pointer;
   height: auto;
   padding: 0;
@@ -85,7 +86,7 @@ export const Image = styled.img`
 export const Item = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 5px;
+  margin-right: 15px;
   position: relative;
   cursor: pointer;
   transition: transform 0.2s;

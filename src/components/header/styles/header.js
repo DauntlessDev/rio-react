@@ -85,6 +85,7 @@ export const ButtonLink = styled(ReactRouterLink)`
 `;
 export const Feature = styled(Container)`
   padding: 100px 0 450px 0;
+  margin-left: 75px;
   flex-direction: column;
   align-items: normal;
   width: 50%;
@@ -95,10 +96,23 @@ export const Feature = styled(Container)`
 
 export const Text = styled.p`
   color: lightgray;
-  font-size: 18px;
-  line-height: normal;
+  font-size: 15px;
+  line-height: 160%;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
-  max-width: 650px;
+  max-width: 410px;
+  margin-bottom: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+`;
+
+export const SubText = styled.p`
+  color: white;
+  font-size: 10px;
+  letter-spacing:1.5;
+  text-transform: uppercase;
+  line-height: 160%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  max-width: 410px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `;
 
 
@@ -118,10 +132,23 @@ export const Link = styled.p`
 
 export const FeatureCallOut = styled.h2`
   color: white;
-  font-size: 35px;
+  font-size: 60px;
+  letter-spacing:1.3px;
   line-height: normal;
-  font-weight: bold;
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+`;
+
+
+export const FeatureCallOutBottom = styled.h2`
+  color: white;
+  font-size: 60px;
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  margin-top: -10px;
   margin-bottom:20px;
 `;
 
@@ -218,15 +245,15 @@ export const SearchIcon = styled.button`
 
 
 export const PlayButton = styled.button`
-  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
-  background-color: rgba(200,200,200,0.2);
+  background-color: transparent;
   color: white;
-  border-width: 0;
+  /* border-width: 0; */
+  border: 1.5px solid white;
   padding: 10px 20px;
-  border-radius: 5px;
-  max-width: 130px;
-  font-weight: bold;
-  font-size: 20px;
+  /* border-radius: 5px; */
+  max-width: 150px;
+  /* font-weight: bold; */
+  font-size: 15px;
   margin-top: 10px;
   cursor: pointer;
   transition: background-color 0.5s ease;

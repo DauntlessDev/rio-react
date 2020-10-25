@@ -46,12 +46,12 @@ export default function BrowseContainer({ slides }) {
                 :
                 <>
                     <Loading.ReleaseBody />
-                    <Header src="joker1" dontShowOnSmallViewPort>
+                    <Header src="stranger1" dontShowOnSmallViewPort>
                         <Header.Frame>
                             <Header.Group>
                                 <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
-                                <Header.TextLink active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}>Series</Header.TextLink>
-                                <Header.TextLink active={category === 'films' ? 'true' : 'false'} onClick={() => setCategory('films')}>Films</Header.TextLink>
+                                <Header.TextLink active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}>SERIES</Header.TextLink>
+                                <Header.TextLink active={category === 'films' ? 'true' : 'false'} onClick={() => setCategory('films')}>FILMS</Header.TextLink>
                             </Header.Group>
                             <Header.Group>
                                 <Header.Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
@@ -71,13 +71,12 @@ export default function BrowseContainer({ slides }) {
                             </Header.Group>
                         </Header.Frame>
                         <Header.Feature>
-                            <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
-                            <Header.Text>
-                                Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham
-                                City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a
-                                futile attempt to feel like he's part of the world around him.
+                            <Header.SubText>Season 3 now available</Header.SubText>
+                            <Header.FeatureCallOut>STRANGER</Header.FeatureCallOut>
+                            <Header.FeatureCallOutBottom>THINGS</Header.FeatureCallOutBottom>
+                            <Header.Text>Set in the 1980s in the fictional town of Hawkins, Indiana, the first season focuses on the investigation into the disappearance of a young boy amid supernatural events occurring around the town, including the appearance of a girl with psychokinetic abilities.
                             </Header.Text>
-                            <Header.PlayButton>Play</Header.PlayButton>
+                            <Header.PlayButton>Start Watching</Header.PlayButton>
                         </Header.Feature>
                     </Header>
                     <Card.Group>

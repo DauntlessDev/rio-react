@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link as ReactRouterLink } from 'react-router-dom';
 import {
-    Background, Container, Feature, Text, Link as TextLink, ButtonLink, Logo, Darken, Inner, Group, FeatureCallOut, Dropdown,
+    Background, Container, Feature, Text, Link as TextLink, ButtonLink, Logo, Darken, Inner, Group, FeatureCallOut, FeatureCallOutBottom, Dropdown,
     SearchIcon,
-    SearchInput, Search,
+    SearchInput, Search, SubText,
     Picture, Profile, PlayButton,
 } from './styles/header';
 
@@ -38,9 +38,16 @@ Header.Feature = function HeaderFeature({ children, ...restProps }) {
 Header.FeatureCallOut = function HeaderFeatureCallOut({ children, ...restProps }) {
     return <FeatureCallOut {...restProps}>{children}</FeatureCallOut>
 }
+Header.FeatureCallOutBottom = function HeaderFeatureCallOut({ children, ...restProps }) {
+    return <FeatureCallOutBottom {...restProps}>{children}</FeatureCallOutBottom>
+}
 
 Header.Text = function HeaderText({ children, ...restProps }) {
     return <Text {...restProps}>{children}</Text>
+}
+
+Header.SubText = function HeaderText({ children, ...restProps }) {
+    return <SubText {...restProps}>{children}</SubText>
 }
 
 
