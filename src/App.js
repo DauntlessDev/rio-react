@@ -1,7 +1,7 @@
 import React from 'react';
 import * as ROUTES from './constants/routes';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
-import { Home, Browse, Signin, Signup } from './pages';
+import { Home, Browse, SignIn, SignUp } from './pages';
 import { IsUserRedirect, ProtectedRoute } from './helpers/routes'
 import { useAuthListener } from './hooks';
 
@@ -27,13 +27,13 @@ export default function App() {
           user={user}
           loggedInPath={ROUTES.BROWSE}
           path={ROUTES.SIGN_IN}>
-          <Signin />
+          <SignIn />
         </IsUserRedirect>
         <IsUserRedirect
           user={user}
           loggedInPath={ROUTES.BROWSE}
           path={ROUTES.SIGN_UP}>
-          <Signup />
+          <SignUp />
         </IsUserRedirect>
       </Switch>
     </Router>
