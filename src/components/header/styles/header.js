@@ -107,7 +107,8 @@ export const Text = styled.p`
 export const SubText = styled.p`
   color: white;
   font-size: 10px;
-  letter-spacing:1.5;
+  letter-spacing:1.5px;
+
   text-transform: uppercase;
   line-height: 160%;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
