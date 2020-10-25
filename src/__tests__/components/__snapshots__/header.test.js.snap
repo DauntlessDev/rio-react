@@ -126,7 +126,7 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
       class="header__Container-sc-16skmj5-4 header__Feature-sc-16skmj5-7 gyjpsR cGfnIb"
     >
       <p
-        class="header__SubText-sc-16skmj5-9 fSakBx"
+        class="header__SubText-sc-16skmj5-9 jqEwbN"
       >
         Season 3 now available
       </p>
