@@ -46,7 +46,7 @@ export default function BrowseContainer({ slides }) {
                 :
                 <>
                     <Loading.ReleaseBody />
-                    <Header src="stranger1" dontShowOnSmallViewPort>
+                    <Header src="stranger2" dontShowOnSmallViewPort>
                         <Header.Frame>
                             <Header.Group>
                                 <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
