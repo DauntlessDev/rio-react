@@ -25,7 +25,6 @@
       "!<rootDir>/src/index.js",
       "!<rootDir>/src/containers/BrowseContainer.js",
       "!<rootDir>/src/pages/Browse.js",
-      "!<rootDir>/src/seed.js",
       "!<rootDir>/src/utils/index.js",
       "!<rootDir>/src/pages/index.js",
       "!<rootDir>/src/global-styles.js",
