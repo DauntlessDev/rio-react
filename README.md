@@ -4,6 +4,8 @@
 
 A movie information website inspired from netflix, which includes list of movies, documentaries, series, etc. It is created with the best practices in react development while using the latest technologies. It also includes testing using jest. 
 
+Website Link: https://rioflix.netlify.app/
+
 <div align="center">
   <img src="https://github.com/DauntlessDev/rio-react/blob/master/rio.JPG" width=auto>
 </div>
