@@ -26,4 +26,4 @@ In the project directory, you can run:
 
 
 
-<!-- This project was based from KarlHadwen's but was developed from scatch and added/changed design -->
+This project was based from KarlHadwen's but was developed from scatch and added/changed some design
